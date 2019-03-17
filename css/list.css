@@ -1,0 +1,213 @@
+.logo .sk_pic{
+  position: absolute;
+  top:15px;
+  right:-95px;
+  width:80px;
+  line-height: 33px;
+  text-align: center;
+  height:33px;
+  border-left:1px solid #b1191a;
+}
+.sk{
+  height:45px;
+  border-bottom: 2px solid #b1191a;
+}
+.sk_box{
+  line-height: 45px;
+  height: 45px;
+  /* background-color: pink; */
+}
+.sk_list li{
+  float: left;
+  margin: 0 25px;
+}
+.sk_list li a{
+  font-size: 16px;
+  font-weight: 700;
+  color:#000;
+}
+.sk_con ul{
+  margin-left:30px;
+}
+.sk_con li{
+  float: left;
+}
+.sk_con li a{
+  margin: 0 20px;
+  font-size: 14px;
+
+}
+.sk_hd {
+  margin-bottom:25px;
+}
+.sk_bd{
+  /* height:459px; */
+}
+ .sk_goods_f {
+   width:1212px;
+ }
+.sk_goods{
+  position: relative;
+  float: left;
+  height:454px;
+  width:288px;
+  border:1px solid transparent;
+  margin-right:13px;
+  margin-bottom:10px;
+  /* padding:15px 10px 0 10px ; */
+}
+.sk_item{
+  display: block;
+  width:266px;
+  height:386px;
+  text-align: center;
+  border:1px solid transparent;
+  padding: 10px;
+}
+
+.sk_goods:hover .sk_item{
+  border:1px solid #b1191a;
+}
+.sk_goods:hover .sk_item {
+  
+}
+.sk_goods  img{
+  width:240px;
+  /* height:270px; */
+}
+
+.sk_goods .sk_goods_title{
+  height:50px;
+  text-align: left;
+  color:#808080;
+  font-size: 14px;
+  text-align: left;
+}
+.sk_goods .sk_item .sk_goods_price{
+  height:35px; 
+  color:red;
+  font-size: 22px;
+  text-align: left;
+}
+.sk_goods_price .price_single{
+  font-size: 14px;
+}
+.sk_goods_progress{
+  color:#666;
+  height:20px;
+  line-height: 20px;
+}
+.progress_line {
+  margin:  0 5px;
+  overflow: hidden;
+  display: inline-block;
+  width:132px;
+  height: 10px;
+  border:1px solid #e12228;
+  border-radius: 8px;
+  vertical-align: middle;
+
+}
+.progress_line span{
+  height: 10px;
+  width:87%;
+  display:block;
+  background-color: #ed282e;
+}
+.sk_goods_price .old_price {
+  font-size: 14px;
+  color:#a4a4a4;
+  text-decoration: line-through;
+}
+.sk_goods_buy{
+  position: absolute;
+  left:0;
+  bottom: 0;
+  display: block;
+  height:50px;
+  width:288px;
+  text-align: center;
+  line-height: 49px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #b1191a;
+/* border-right:1px solid transparent;
+border-left:1px solid transparent;
+border-bottom:1px solid transparent; */
+}
+.sk_goods_buy:hover{
+  color:#fff;
+  /* border:1px solid #b1191a; */
+  /* background-color: #fff; */
+}
+
+
+/*  分页开始 */
+/* .page {
+  margin-top:35px;
+  margin-bottom:35px;
+  position: relative;
+  height:40px;
+  line-height: 40px;
+}
+.page ul{
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+}
+.page li{
+  display: inline-block;
+}
+.page li a{
+  color:#666;
+  padding:10px 15px;
+  border:1px solid #ccc;
+  background-color: #f7f7f7; 
+}
+.page li a:hover{
+  background-color: #fff;
+}
+.page li .pointer{
+  border:none;
+  background-color: #fff
+} */
+
+.page {
+  margin: 40px auto;
+  text-align: center;
+}
+.page span{
+  display: inline-block;
+}
+.page a{
+  display: inline-block;
+  height:36px;
+  width:36px;
+  line-height: 36px;
+  border:1px solid #ccc;
+  background-color: #f9f9f9;
+}
+.page .prve,.page .next{
+  width:86px;
+}
+.pn_right{
+
+}
+.page_input{
+  width:46px;
+  height:36px;
+   border:1px solid #ccc;
+   transition:all 0.3s;
+   text-align: center;
+}
+.page_input:focus{
+  width:86px;
+}
+.pn_right button {
+  width:46px;
+  height: 38px;
+  border:1px solid #ccc;
+  background-color: #f9f9f9;
+}
+ /* 分页结束  */
+

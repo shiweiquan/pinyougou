@@ -1,0 +1,148 @@
+/* 公共样式 */
+.fl{
+  float: left;
+}
+.fr {
+  float: right;
+}
+/* 版心 */
+.w {
+  width:1200px;
+  margin: 0 auto;
+}
+.color{
+  background-color: pink;
+}
+.style_red{
+  color:#c81623;
+}
+.clearfix:after{
+  content:"";
+  display: block;
+  height:0;
+  visibility: hidden;
+  clear: both;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?7kkyc2');
+  src:  url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+        url('../fonts/icomoon.woff?7kkyc2') format('woff'),
+        url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.shortcut{
+  height:31px ;
+  background-color: #f1f1f1;
+  line-height: 31px;
+  color:#666;
+}
+
+.shortcut li{
+  float: left;
+}
+.spacer {
+  width:1px;
+  height:12px;
+  background-color: #666;
+  margin: 9px 12px 0;
+}
+.icomoon {
+  font-family: 'icomoon';
+  font-size: 16px;
+  line-height: 26px;
+}
+/* header 部分 */
+.header {
+  position: relative;
+  height:105px;
+  background-color: pink;
+}
+.logo{
+  position: absolute;
+  top:25px;
+  left:0;
+  width:175px;
+  height:56px;
+}
+.logo a{ 
+  /* color:transparent; */
+  font-size: 0;
+  /* text-indent: -999px;
+  overflow: hidden; */
+  display: block;
+  width:175px;
+  height:56px;
+  background: url(../img/logo.png) no-repeat;
+}
+.search {
+  position: absolute;
+  top:25px;
+  left:348px;
+}
+.camera {
+ position: absolute;
+ right:95px;
+ top:5px;
+ color:#ccc;
+}
+.search-glass{
+  position: absolute;
+  left:5px;;
+  top:7px;
+  color:#ccc;
+}
+.text{
+  float: left;
+  width:445px;
+  padding-left:10px;
+  height:32px;
+  border:2px solid #b1191a;
+  
+}
+.btn{
+  float: left;
+  font-size: 16px;
+  background-color: #b1191a;
+  border:none;
+  width:82px;
+  height:36px;
+  line-height: 36px;
+  color:#fff;
+  padding: 0 4px;
+}
+.hotwords {
+  position: absolute;
+  top:68px;
+  left:348px;
+}
+.hotwords a{
+  margin: 0 10px;
+}
+.shopcar {
+  position: absolute;
+  line-height: 34px;
+  top:25px;
+  right:64px;
+  width: 138px;
+  height:34px;
+  border:1px solid #dfdfdf;
+  background-color: #f7f7f7;
+}
+.shopcar .cart{
+  font-family: "icomoon";
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0 10px;
+  color:#c81623;
+}
+.jt {
+  position: absolute;
+  font-family: "icomoon";
+  font-size: 16px;
+  line-height: 26px;
+  top:5px;
+  /* color:#c81623; */
+}
